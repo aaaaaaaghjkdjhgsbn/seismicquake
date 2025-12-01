@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# Data files
+*.hdf5
+*.csv
+archive/
+dataset/
+extracted_waves/
+
+# Model outputs
+binary_classification_results/
+comprehensive_test_results/
+wave_analysis/
+wave_type_detection_results/
+
+# Temporary files
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+# Large files
+*.zip
+*.tar.gz
+

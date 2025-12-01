@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-01T21:17:44.653325",
+  "parameters": {
+    "batch_size": 256,
+    "epochs": 50,
+    "learning_rate": 0.001,
+    "input_length": 400,
+    "max_samples_per_class": 100000
+  },
+  "results": {}
+}
