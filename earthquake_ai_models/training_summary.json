@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-12-01T21:17:44.653325",
+  "timestamp": "2025-12-01T21:48:17.569265",
   "parameters": {
     "batch_size": 256,
     "epochs": 50,
@@ -7,5 +7,21 @@
     "input_length": 400,
     "max_samples_per_class": 100000
   },
-  "results": {}
+  "results": {
+    "earthquake_detector": {
+      "test_loss": 0.07954320311546326,
+      "test_acc": 0.9681500196456909,
+      "test_auc": 0.9959109425544739
+    },
+    "wave_classifier": {
+      "test_loss": 0.008755610324442387,
+      "test_acc": 0.9969333410263062
+    },
+    "magnitude_predictor": {
+      "test_mse": 0.27898725867271423,
+      "test_mae": 0.37399956583976746,
+      "within_05": 75.03385325241987,
+      "within_1": 93.06886002307037
+    }
+  }
 }

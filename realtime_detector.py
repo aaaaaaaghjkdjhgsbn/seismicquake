@@ -87,19 +87,19 @@ class EarthquakeDetector:
         
         # Load models
         if detector_path.exists():
-            self.earthquake_detector = keras.models.load_model(detector_path)
+            self.earthquake_detector = keras.models.load_model(detector_path, compile=False)
             print(f"  ✓ Earthquake detector loaded: {detector_path.name}")
         else:
             print(f"  ⚠ Earthquake detector not found")
             
         if wave_path.exists():
-            self.wave_classifier = keras.models.load_model(wave_path)
+            self.wave_classifier = keras.models.load_model(wave_path, compile=False)
             print(f"  ✓ Wave classifier loaded: {wave_path.name}")
         else:
             print(f"  ⚠ Wave classifier not found")
             
         if mag_path.exists():
-            self.magnitude_predictor = keras.models.load_model(mag_path)
+            self.magnitude_predictor = keras.models.load_model(mag_path, compile=False)
             print(f"  ✓ Magnitude predictor loaded: {mag_path.name}")
         else:
             print(f"  ⚠ Magnitude predictor not found")
