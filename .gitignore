@@ -13,6 +13,7 @@ env/
 archive/
 dataset/
 extracted_waves/
+extracted_audio_samples/
 
 # Model outputs
 binary_classification_results/
