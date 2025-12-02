@@ -46,9 +46,9 @@ A comprehensive real-time earthquake detection and seismic wave classification s
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                        SeismicQuake Architecture                         │
+│                        SeismicQuake Architecture                        │
 ├─────────────────────────────────────────────────────────────────────────┤
-│                                                                          │
+│                                                                         │
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────────────────┐   │
 │  │ Input Data   │───▶│ Preprocessor │───▶│ AI Models Pipeline       │   │
 │  │ .mseed/.wav/ │    │              │    │                          │   │
@@ -58,27 +58,29 @@ A comprehensive real-time earthquake detection and seismic wave classification s
 │                      └──────────────┘    │ └──────────┬───────────┘ │   │
 │                                          │            │             │   │
 │                                          │            ▼             │   │
-│  ┌──────────────┐                       │ ┌──────────────────────┐ │   │
-│  │ STA/LTA      │◀──────────────────────│ │ 2. Wave Classifier   │ │   │
-│  │ Trigger      │                       │ │    (P/S/Surface)     │ │   │
-│  │ Algorithm    │                       │ └──────────┬───────────┘ │   │
-│  └──────┬───────┘                       │            │             │   │
-│         │                               │            ▼             │   │
-│         │    ┌──────────────────────────┼──────────────────────┐   │   │
-│         └───▶│ Wave Arrival Detection   │ 3. Magnitude         │   │   │
-│              │ • P-wave arrival time    │    Predictor         │   │   │
-│              │ • S-wave arrival time    │    (from P-wave)     │   │   │
-│              │ • Surface wave arrival   │                      │   │   │
-│              └──────────────────────────┴──────────────────────┘   │   │
-│                                                                     │   │
-│  ┌──────────────────────────────────────────────────────────────┐   │   │
-│  │                     Output Results                            │   │   │
-│  │  • Earthquake detected: Yes/No                                │   │   │
-│  │  • Wave types: P-wave @ 7.2s, S-wave @ 18.5s, Surface @ 22s  │   │   │
-│  │  • Estimated magnitude: 3.5 ± 0.5                             │   │   │
-│  │  • Confidence scores for each detection                       │   │   │
-│  └──────────────────────────────────────────────────────────────┘   │   │
-│                                                                          │
+│  ┌──────────────┐                       │ ┌──────────────────────┐  │   │
+│  │ STA/LTA      │◀──────────────────────│ │ 2. Wave Classifier   │  │   │
+│  │ Trigger      │                       │ │    (P/S/Surface)     │  │   │
+│  │ Algorithm    │                       │ └──────────┬───────────┘  │   │
+│  └──────┬───────┘                       │            │              │   │
+│         │                               │            ▼              │   │
+│         │    ┌──────────────────────────┼──────────────────────┐    │   │
+│         └───▶│ Wave Arrival Detection   │ 3. Magnitude         │    │   │
+│              │ • P-wave arrival time    │    Predictor         │    │   │
+│              │ • S-wave arrival time    │    (from P-wave)     │    │   │
+│              │ • Surface wave arrival   │                      │    │   │
+│              └──────────────────────────┴──────────────────────┘    │   │
+│                                         └───────────┬───────────────┘   │
+|                                                     ▼                   |
+│  ┌──────────────────────────────────────────────────────────────┐       │
+│  │                     Output Results                           │       │
+│  │  • Earthquake detected: Yes/No                               │       │
+│  │  • Wave types: P-wave @ 7.2s, S-wave @ 18.5s, Surface @ 22s  │       │
+│  │  • Estimated magnitude: 3.5 ± 0.5                            │       │
+│  │  • Confidence scores for each detection                      │       │
+│  └──────────────────────────────────────────────────────────────┘       │
+│                                                                         |
+|                                                                         │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
 
